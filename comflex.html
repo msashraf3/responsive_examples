@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,53 @@
     <title>Complex Flex</title>
     <link rel="stylesheet" href="styles/comflex.css">
 </head>
+
 <body>
     <header>
         <h1>Complex Photo Gallery</h1>
-
+        <hr>
     </header>
     <main>
-        <img src="images/a.jpeg" alt="beauty 1">
+        <section class="row">
+            <img src="images/a.jpeg" alt="beauty 1">
+
+        </section>
+        <section class="row second-row">
+            <div><img src="images/b.jpeg" alt="beauty 2"></div>
+            <div><img src="images/c.jpeg" alt="beauty 3"></div>
+            <div>
+                <div class="row second-row-third">
+                    <div>
+                    <img src="images/d.jpeg" alt="beauty 4"> 
+                    </div>
+                    <div>
+                    <img src="images/e.jpeg" alt="beauty 5">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="row third-row">
+            <div><img src="images/f.jpeg" alt="beauty 6"></div>
+            <div class="third-row-second">
+                <div>
+                    <img src="images/g.jpeg" alt="beauty 7">
+                </div>
+                <div>
+                    <img src="images/g.jpeg" alt="beauty 7">
+                </div>
+                <div>
+                    <img src="images/g.jpeg" alt="beauty 7">
+                </div>
+                <div>
+                    <img src="images/g.jpeg" alt="beauty 7">
+                </div>
+            </div>
+            <div><img src="images/h.jpeg" alt="beauty 8"></div>
+        </section>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
